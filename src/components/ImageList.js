@@ -7,7 +7,12 @@ const ImageList = ({ images }) => {
         src={image.urls.regular}
         alt={image.alt_description}
         key={image.id}
-        style={{ width: "250px", height: "300px", margin: "10px" }}
+        style={{
+          width: "250px",
+          height: "300px",
+          margin: "10px",
+          borderRadius: "10px",
+        }}
       />
     );
   });
